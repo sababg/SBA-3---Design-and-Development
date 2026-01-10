@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+    --color-Green500: hsl(171, 66%, 44%);
+    --color-Blue100: hsl(233, 100%, 69%);
+    --color-Gray700: hsl(210, 10%, 33%);
+    --color-Gray500: hsl(201, 11%, 66%);
+
+    /* Custom Font Classes */
+    --font-display: "Bai Jamjuree", sans-serif;
+    --text-header: 2rem;
+    --text-title: 1.125rem;
+    --text-description: 0.875rem;
+}

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="./output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Clipboard landing page</title>
+  </head>
+
+  <body class="h-full font-display text-description">
+    <header class="text-center h-full">
+      <div
+        class="w-full h-full px-5 flex items-center justify-center flex-col bg-[url(/images/bg-header-mobile.png)] sm:bg-[url(/images/bg-header-desktop.png)] bg-cover bg-center bg-no-repeat mask-[linear-gradient(to_bottom,rgba(0,0,0,1)_70%,rgba(0,0,0,0)_100%)] [-webkit-mask-image:linear-gradient(to_bottom,rgba(0,0,0,1)_70%,rgba(0,0,0,0)_100%)]"
+      >
+        <figure
+          class="flex items-center justify-center mb-6"
+          aria-label="Clipboard logo"
+        >
+          <img src="/images/logo.svg" alt="Clipboard Logo" class="w-20 h-20" />
+        </figure>
+
+        <div class="sm:w-151.75 w-full sm:p-0 z-10 relative">
+          <h1
+            class="text-Gray700 font-semibold sm:text-[2.447rem] text-header mb-3"
+          >
+            A history of everything you copy
+          </h1>
+          <p
+            class="text-Gray500 sm:text-title text-[17px] max-w-[98%] sm:max-w-full font-normal"
+          >
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+        </div>
+
+        <nav
+          class="mt-8 text-white flex items-center justify-center sm:flex-row flex-col gap-3.5 w-full"
+          aria-label="Primary downloads"
+        >
+          <a
+            href="#"
+            class="py-3.5 w-full sm:w-auto shadow-md shadow-Green500 px-8 flex items-center justify-center bg-Green500 rounded-4xl text-description font-normal sm:transition-all sm:duration-300 sm:hover: from-white hover: to-Green500 sm:hover:shadow-2xl sm:hover:shadow-Green500 sm:hover:-translate-y-2 sm:hover:scale-105 sm:active:translate-y-0 sm:active:scale-100"
+            >Download for iOS</a
+          >
+          <a
+            href="#"
+            class="py-3.5 w-full sm:w-auto px-8 bg-Blue100 shadow-md shadow-Blue100 rounded-4xl text-description font-normal sm:transition-all sm:duration-300 sm:hover: from-white hover: to-Blue100 sm:hover:shadow-2xl sm:hover:shadow-Blue100 sm:hover:-translate-y-2 sm:hover:scale-105 sm:active:translate-y-0 sm:active:scale-100"
+            >Download for Mac</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="px-5">
+      <section aria-labelledby="features-title">
+        <div>
+          <header class="flex items-center flex-col justify-center gap-5">
+            <h2 class="text-header text-Gray700 font-semibold text-center">
+              Keep track of your snippets
+            </h2>
+            <p
+              class="text-title font-normal text-Gray500 text-center sm:max-w-[48%]"
+            >
+              Clipboard instantly stores any item you copy in the cloud, meaning
+              you can access your snippets immediately on all your devices. Our
+              Mac and iOS apps will help you organize everything.
+            </p>
+          </header>
+
+          <div class="grid sm:grid-cols-2 grid-cols-1 mt-16 gap-8">
+            <figure class="relative">
+              <img
+                src="images/image-computer.png"
+                alt="Image of the computer"
+                class="sm:-translate-x-[8%]"
+              />
+              <figcaption class="sr-only">
+                Desktop application interface
+              </figcaption>
+            </figure>
+            <article
+              class="flex flex-col sm:items-start items-center justify-center gap-8 mt-4 sm:mt-0"
+            >
+              <section
+                class="flex flex-col sm:items-start sm:justify-start items-center justify-center gap-1 w-full"
+              >
+                <h3 class="text-title text-Gray700 font-semibold">
+                  Quick Search
+                </h3>
+                <p
+                  class="text-description/6 text-Gray500 font-normal sm:max-w-[42%] max-w-[80%] text-center sm:text-left"
+                >
+                  Easily search your snippets by content, category, web address,
+                  application, and more.
+                </p>
+              </section>
+              <section
+                class="flex flex-col sm:items-start sm:justify-start items-center justify-center gap-1 w-full"
+              >
+                <h3 class="text-title text-Gray700 font-semibold">
+                  iCloud Sync
+                </h3>
+                <p
+                  class="text-description/6 text-Gray500 font-normal sm:max-w-[42%] max-w-[80%] text-center sm:text-left"
+                >
+                  Instantly saves and syncs snippets across all your devices.
+                </p>
+              </section>
+
+              <section
+                class="flex flex-col sm:items-start sm:justify-start items-center justify-center gap-1 w-full"
+              >
+                <h3 class="text-title text-Gray700 font-semibold">
+                  Complete History
+                </h3>
+                <p
+                  class="text-description/6 text-Gray500 font-normal sm:max-w-[42%] max-w-[80%] text-center sm:text-left"
+                >
+                  Retrieve any snippets from the first moment you started using
+                  the app.
+                </p>
+              </section>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="access-title">
+        <div class="mt-24">
+          <header class="flex items-center flex-col justify-center gap-5">
+            <h2 class="text-header text-Gray700 font-semibold text-center">
+              Access Clipboard anywhere
+            </h2>
+            <p
+              class="sm:text-title text-description font-normal text-Gray500 text-center sm:max-w-[48%] max-w-[84%]"
+            >
+              Whether you’re on the go, or at your computer, you can access all
+              your Clipboard snippets in a few simple clicks.
+            </p>
+          </header>
+
+          <figure class="flex items-center justify-center mt-20">
+            <img
+              src="images/image-devices.png"
+              alt="Clipboard on multiple devices"
+            />
+            <figcaption class="sr-only">
+              Clipboard shown on phone and tablet devices
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section aria-labelledby="workflow-title">
+        <div class="mt-24">
+          <header class="flex items-center flex-col justify-center gap-5">
+            <h2 class="text-header text-Gray700 font-semibold text-center">
+              Supercharge your workflow
+            </h2>
+            <p
+              class="sm:text-title text-description font-normal text-Gray500 text-center sm:max-w-[48%] max-w-[84%]"
+            >
+              We’ve got the tools to boost your productivity.
+            </p>
+          </header>
+
+          <div class="grid sm:grid-cols-3 grid-cols-1 mt-12 gap-16 sm:gap-0">
+            <article
+              class="flex flex-col items-center justify-center sm:gap-3 gap-6"
+            >
+              <img
+                src="images/icon-blacklist.svg"
+                alt="blacklist Icon"
+                class="w-8 h-auto"
+              />
+              <h3 class="text-title text-Gray700 font-semibold text-center">
+                Create blacklists
+              </h3>
+              <p
+                class="text-description font-normal text-Gray500 text-center sm:max-w-[67%] max-w-[84%]"
+              >
+                Ensure sensitive information never makes its way to your
+                clipboard by excluding certain sources.
+              </p>
+            </article>
+
+            <article
+              class="flex flex-col items-center justify-center sm:gap-3 gap-6"
+            >
+              <img
+                src="images/icon-text.svg"
+                alt="text Icon"
+                class="w-8 h-auto"
+              />
+              <h3 class="text-title text-Gray700 font-semibold text-center">
+                Plain text snippets
+              </h3>
+              <p
+                class="text-description font-normal text-Gray500 text-center sm:max-w-[67%] max-w-[84%]"
+              >
+                Remove unwanted formatting from copied text for a consistent
+                look.
+              </p>
+            </article>
+
+            <article
+              class="flex flex-col items-center justify-center sm:gap-3 gap-6"
+            >
+              <img
+                src="images/icon-preview.svg"
+                alt="preview Icon"
+                class="w-8 h-auto"
+              />
+              <h3 class="text-title text-Gray700 font-semibold text-center">
+                Sneak preview
+              </h3>
+              <p
+                class="text-description font-normal text-Gray500 text-center sm:max-w-[67%] max-w-[84%]"
+              >
+                Quick preview of all snippets on your Clipboard for easy access.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <aside aria-label="Trusted by leading companies">
+        <div>
+          <div
+            class="grid sm:grid-cols-5 grid-cols-1 mt-24 gap-16 sm:gap-0"
+            role="list"
+          >
+            <span
+              class="flex items-center justify-center"
+              role="listitem"
+              aria-label="Google"
+              ><img src="images/logo-google.png" alt="Google"
+            /></span>
+            <span
+              class="flex items-center justify-center"
+              role="listitem"
+              aria-label="IBM"
+              ><img src="images/logo-ibm.png" alt="IBM"
+            /></span>
+            <span
+              class="flex items-center justify-center"
+              role="listitem"
+              aria-label="Microsoft"
+              ><img src="images/logo-microsoft.png" alt="Microsoft"
+            /></span>
+            <span
+              class="flex items-center justify-center"
+              role="listitem"
+              aria-label="Hewlett Packard Enterprise"
+              ><img src="images/logo-hp.png" alt="Hewlett Packard"
+            /></span>
+            <span
+              class="flex items-center justify-center"
+              role="listitem"
+              aria-label="Vector Graphics"
+              ><img src="images/logo-vector-graphics.png" alt="Vector Graphics"
+            /></span>
+          </div>
+        </div>
+      </aside>
+
+      <section aria-labelledby="cta-title">
+        <div class="mt-24">
+          <header class="flex items-center flex-col justify-center gap-5">
+            <h2
+              id="cta-title"
+              class="text-header text-Gray700 font-semibold text-center"
+            >
+              Clipboard for iOS and Mac OS
+            </h2>
+            <p
+              class="sm:text-title text-description font-normal text-Gray500 text-center sm:max-w-[48%] max-w-[80%]"
+            >
+              Available for free on the App Store. Download for Mac or iOS, sync
+              with iCloud and you’re ready to start adding to your clipboard.
+            </p>
+          </header>
+
+          <nav
+            class="mt-8 text-white flex items-center justify-center sm:flex-row flex-col gap-3.5 w-full"
+            aria-label="Secondary downloads"
+          >
+            <a
+              href="#"
+              class="py-3.5 w-full sm:w-auto shadow-md shadow-Green500 px-8 flex items-center justify-center bg-Green500 rounded-4xl text-description font-normal sm:transition-all sm:duration-300 sm:hover: from-white hover: to-Green500 sm:hover:shadow-2xl sm:hover:shadow-Green500 sm:hover:-translate-y-2 sm:hover:scale-105 sm:active:translate-y-0 sm:active:scale-100"
+              >Download for iOS</a
+            >
+            <a
+              href="#"
+              class="py-3.5 w-full sm:w-auto px-8 bg-Blue100 shadow-md shadow-Blue100 rounded-4xl text-description font-normal sm:transition-all sm:duration-300 sm:hover: from-white hover: to-Blue100 sm:hover:shadow-2xl sm:hover:shadow-Blue100 sm:hover:-translate-y-2 sm:hover:scale-105 sm:active:translate-y-0 sm:active:scale-100 flex items-center justify-center"
+              >Download for Mac</a
+            >
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-100 py-9 mt-24">
+      <div class="px-20">
+        <div
+          class="grid sm:grid-cols-5 grid-cols-1 sm:items-start items-center justify-center sm:gap-8 gap-0"
+        >
+          <figure
+            class="text-center sm:justify-self-start justify-self-center mb-4 sm:mb-0"
+            aria-label="Clipboard logo"
+          >
+            <img
+              src="/images/logo.svg"
+              alt="Clipboard Logo"
+              class="w-10 h-10"
+            />
+          </figure>
+
+          <nav
+            aria-label="Footer navigation"
+            class="sm:text-start text-center justify-self-center"
+          >
+            <ul class="text-description/6 text-Gray700 font-normal">
+              <li class="mb-4 sm:mb-0">
+                <a href="#" class="hover:text-Green500">FAQs</a>
+              </li>
+              <li class="mb-4 sm:mb-0">
+                <a href="#" class="hover:text-Green500">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="sm:text-start text-center justify-self-center">
+            <ul class="text-description/6 text-Gray700 font-normal">
+              <li class="mb-4 sm:mb-0">
+                <a href="#" class="hover:text-Green500">Privacy Policy</a>
+              </li>
+              <li class="mb-4 sm:mb-0">
+                <a href="#" class="hover:text-Green500">Press Kit</a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav
+            class="sm:text-start text-center sm:justify-self-start justify-self-center items-start"
+          >
+            <ul class="text-description/6 text-Gray700 font-normal">
+              <li class="mb-4 sm:mb-0">
+                <a href="#" class="hover:text-Green500">Install Guide</a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav
+            aria-label="Social media"
+            class="sm:text-start text-center sm:justify-self-end justify-self-center flex flex-row items-center gap-3"
+          >
+            <a
+              href="#"
+              aria-label="Facebook"
+              class="inline-block w-6 h-6 bg-gray-700 hover:bg-Green500 transition-colors duration-300 mask-[url('images/icon-facebook.svg')] mask-contain mask-no-repeat mask-center [-webkit-mask-image:url('images/icon-facebook.svg')] [-webkit-mask-size:contain] [-webkit-mask-repeat:no-repeat] [-webkit-mask-position:center]"
+            ></a>
+            <a
+              href="#"
+              aria-label="Twitter"
+              class="inline-block w-6 h-6 bg-gray-700 hover:bg-Green500 transition-colors duration-300 mask-[url('images/icon-twitter.svg')] mask-contain mask-no-repeat mask-center [-webkit-mask-image:url('images/icon-twitter.svg')] [-webkit-mask-size:contain] [-webkit-mask-repeat:no-repeat] [-webkit-mask-position:center]"
+            ></a>
+            <a
+              href="#"
+              aria-label="Instagram"
+              class="inline-block w-6 h-6 bg-gray-700 hover:bg-Green500 transition-colors duration-300 mask-[url('images/icon-instagram.svg')] mask-contain mask-no-repeat mask-center [-webkit-mask-image:url('images/icon-instagram.svg')] [-webkit-mask-size:contain] [-webkit-mask-repeat:no-repeat] [-webkit-mask-position:center]"
+            ></a>
+          </nav>
+        </div>
+      </div>
+      <p class="mt-3.5 flex items-center justify-center text-center">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Saba Beigi</a>.
+      </p>
+    </footer>
+  </body>
+</html>
